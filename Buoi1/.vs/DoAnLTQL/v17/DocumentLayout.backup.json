@@ -1,0 +1,161 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\AGU\\2025-2026_hoc_ki_2\\LTQL\\DoAnLTQL\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C5561320-21C6-4CB8-99A4-799FBCCC2A14}|GUI\\QLBP.csproj|d:\\agu\\2025-2026_hoc_ki_2\\ltql\\doanltql\\gui\\data\\qlbpdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5561320-21C6-4CB8-99A4-799FBCCC2A14}|GUI\\QLBP.csproj|solutionrelative:gui\\data\\qlbpdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5561320-21C6-4CB8-99A4-799FBCCC2A14}|GUI\\QLBP.csproj|d:\\agu\\2025-2026_hoc_ki_2\\ltql\\doanltql\\gui\\data\\khachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5561320-21C6-4CB8-99A4-799FBCCC2A14}|GUI\\QLBP.csproj|solutionrelative:gui\\data\\khachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5561320-21C6-4CB8-99A4-799FBCCC2A14}|GUI\\QLBP.csproj|d:\\agu\\2025-2026_hoc_ki_2\\ltql\\doanltql\\gui\\data\\hoadonchitiet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5561320-21C6-4CB8-99A4-799FBCCC2A14}|GUI\\QLBP.csproj|solutionrelative:gui\\data\\hoadonchitiet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5561320-21C6-4CB8-99A4-799FBCCC2A14}|GUI\\QLBP.csproj|d:\\agu\\2025-2026_hoc_ki_2\\ltql\\doanltql\\gui\\data\\hoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5561320-21C6-4CB8-99A4-799FBCCC2A14}|GUI\\QLBP.csproj|solutionrelative:gui\\data\\hoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5561320-21C6-4CB8-99A4-799FBCCC2A14}|GUI\\QLBP.csproj|d:\\agu\\2025-2026_hoc_ki_2\\ltql\\doanltql\\gui\\data\\nhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5561320-21C6-4CB8-99A4-799FBCCC2A14}|GUI\\QLBP.csproj|solutionrelative:gui\\data\\nhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5561320-21C6-4CB8-99A4-799FBCCC2A14}|GUI\\QLBP.csproj|d:\\agu\\2025-2026_hoc_ki_2\\ltql\\doanltql\\gui\\data\\hangsanxuat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5561320-21C6-4CB8-99A4-799FBCCC2A14}|GUI\\QLBP.csproj|solutionrelative:gui\\data\\hangsanxuat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5561320-21C6-4CB8-99A4-799FBCCC2A14}|GUI\\QLBP.csproj|d:\\agu\\2025-2026_hoc_ki_2\\ltql\\doanltql\\gui\\data\\loaibanphim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5561320-21C6-4CB8-99A4-799FBCCC2A14}|GUI\\QLBP.csproj|solutionrelative:gui\\data\\loaibanphim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5561320-21C6-4CB8-99A4-799FBCCC2A14}|GUI\\QLBP.csproj|d:\\agu\\2025-2026_hoc_ki_2\\ltql\\doanltql\\gui\\data\\banphim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5561320-21C6-4CB8-99A4-799FBCCC2A14}|GUI\\QLBP.csproj|solutionrelative:gui\\data\\banphim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "KhachHang.cs",
+              "DocumentMoniker": "D:\\AGU\\2025-2026_hoc_ki_2\\LTQL\\DoAnLTQL\\GUI\\DATA\\KhachHang.cs",
+              "RelativeDocumentMoniker": "GUI\\DATA\\KhachHang.cs",
+              "ToolTip": "D:\\AGU\\2025-2026_hoc_ki_2\\LTQL\\DoAnLTQL\\GUI\\DATA\\KhachHang.cs",
+              "RelativeToolTip": "GUI\\DATA\\KhachHang.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-28T16:52:39.215Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "QLBPDbContext.cs",
+              "DocumentMoniker": "D:\\AGU\\2025-2026_hoc_ki_2\\LTQL\\DoAnLTQL\\GUI\\DATA\\QLBPDbContext.cs",
+              "RelativeDocumentMoniker": "GUI\\DATA\\QLBPDbContext.cs",
+              "ToolTip": "D:\\AGU\\2025-2026_hoc_ki_2\\LTQL\\DoAnLTQL\\GUI\\DATA\\QLBPDbContext.cs",
+              "RelativeToolTip": "GUI\\DATA\\QLBPDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-28T16:52:04.983Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HoaDonChiTiet.cs",
+              "DocumentMoniker": "D:\\AGU\\2025-2026_hoc_ki_2\\LTQL\\DoAnLTQL\\GUI\\DATA\\HoaDonChiTiet.cs",
+              "RelativeDocumentMoniker": "GUI\\DATA\\HoaDonChiTiet.cs",
+              "ToolTip": "D:\\AGU\\2025-2026_hoc_ki_2\\LTQL\\DoAnLTQL\\GUI\\DATA\\HoaDonChiTiet.cs",
+              "RelativeToolTip": "GUI\\DATA\\HoaDonChiTiet.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-28T16:50:46.656Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HoaDon.cs",
+              "DocumentMoniker": "D:\\AGU\\2025-2026_hoc_ki_2\\LTQL\\DoAnLTQL\\GUI\\DATA\\HoaDon.cs",
+              "RelativeDocumentMoniker": "GUI\\DATA\\HoaDon.cs",
+              "ToolTip": "D:\\AGU\\2025-2026_hoc_ki_2\\LTQL\\DoAnLTQL\\GUI\\DATA\\HoaDon.cs",
+              "RelativeToolTip": "GUI\\DATA\\HoaDon.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-28T16:49:54.339Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "NhanVien.cs",
+              "DocumentMoniker": "D:\\AGU\\2025-2026_hoc_ki_2\\LTQL\\DoAnLTQL\\GUI\\DATA\\NhanVien.cs",
+              "RelativeDocumentMoniker": "GUI\\DATA\\NhanVien.cs",
+              "ToolTip": "D:\\AGU\\2025-2026_hoc_ki_2\\LTQL\\DoAnLTQL\\GUI\\DATA\\NhanVien.cs",
+              "RelativeToolTip": "GUI\\DATA\\NhanVien.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-28T16:49:38.149Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HangSanXuat.cs",
+              "DocumentMoniker": "D:\\AGU\\2025-2026_hoc_ki_2\\LTQL\\DoAnLTQL\\GUI\\DATA\\HangSanXuat.cs",
+              "RelativeDocumentMoniker": "GUI\\DATA\\HangSanXuat.cs",
+              "ToolTip": "D:\\AGU\\2025-2026_hoc_ki_2\\LTQL\\DoAnLTQL\\GUI\\DATA\\HangSanXuat.cs",
+              "RelativeToolTip": "GUI\\DATA\\HangSanXuat.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-28T16:48:32.577Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LoaiBanPhim.cs",
+              "DocumentMoniker": "D:\\AGU\\2025-2026_hoc_ki_2\\LTQL\\DoAnLTQL\\GUI\\DATA\\LoaiBanPhim.cs",
+              "RelativeDocumentMoniker": "GUI\\DATA\\LoaiBanPhim.cs",
+              "ToolTip": "D:\\AGU\\2025-2026_hoc_ki_2\\LTQL\\DoAnLTQL\\GUI\\DATA\\LoaiBanPhim.cs",
+              "RelativeToolTip": "GUI\\DATA\\LoaiBanPhim.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-28T16:46:31.987Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BanPhim.cs",
+              "DocumentMoniker": "D:\\AGU\\2025-2026_hoc_ki_2\\LTQL\\DoAnLTQL\\GUI\\DATA\\BanPhim.cs",
+              "RelativeDocumentMoniker": "GUI\\DATA\\BanPhim.cs",
+              "ToolTip": "D:\\AGU\\2025-2026_hoc_ki_2\\LTQL\\DoAnLTQL\\GUI\\DATA\\BanPhim.cs",
+              "RelativeToolTip": "GUI\\DATA\\BanPhim.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-28T16:43:18.051Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
