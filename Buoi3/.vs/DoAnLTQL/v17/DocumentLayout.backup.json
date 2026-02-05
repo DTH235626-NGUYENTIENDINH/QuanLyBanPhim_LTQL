@@ -1,0 +1,119 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\AGU\\2025-2026_hoc_ki_2\\LTQL\\NopDoANTheoBuoi\\Buoi3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C5561320-21C6-4CB8-99A4-799FBCCC2A14}|QLBP\\QLBP.csproj|d:\\agu\\2025-2026_hoc_ki_2\\ltql\\nopdoantheobuoi\\buoi3\\qlbp\\form\\banphim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C5561320-21C6-4CB8-99A4-799FBCCC2A14}|QLBP\\QLBP.csproj|solutionrelative:qlbp\\form\\banphim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5561320-21C6-4CB8-99A4-799FBCCC2A14}|QLBP\\QLBP.csproj|d:\\agu\\2025-2026_hoc_ki_2\\ltql\\nopdoantheobuoi\\buoi3\\qlbp\\form\\banphim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5561320-21C6-4CB8-99A4-799FBCCC2A14}|QLBP\\QLBP.csproj|solutionrelative:qlbp\\form\\banphim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5561320-21C6-4CB8-99A4-799FBCCC2A14}|QLBP\\QLBP.csproj|d:\\agu\\2025-2026_hoc_ki_2\\ltql\\nopdoantheobuoi\\buoi3\\qlbp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5561320-21C6-4CB8-99A4-799FBCCC2A14}|QLBP\\QLBP.csproj|solutionrelative:qlbp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5561320-21C6-4CB8-99A4-799FBCCC2A14}|QLBP\\QLBP.csproj|d:\\agu\\2025-2026_hoc_ki_2\\ltql\\nopdoantheobuoi\\buoi3\\qlbp\\form\\nhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5561320-21C6-4CB8-99A4-799FBCCC2A14}|QLBP\\QLBP.csproj|solutionrelative:qlbp\\form\\nhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 11,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "NhanVien.cs",
+              "DocumentMoniker": "D:\\AGU\\2025-2026_hoc_ki_2\\LTQL\\NopDoANTheoBuoi\\Buoi3\\QLBP\\FORM\\NhanVien.cs",
+              "RelativeDocumentMoniker": "QLBP\\FORM\\NhanVien.cs",
+              "ToolTip": "D:\\AGU\\2025-2026_hoc_ki_2\\LTQL\\NopDoANTheoBuoi\\Buoi3\\QLBP\\FORM\\NhanVien.cs",
+              "RelativeToolTip": "QLBP\\FORM\\NhanVien.cs",
+              "ViewState": "AgIAAG8AAAAAAAAAAAAmwJMAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-25T15:00:01.675Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BanPhim.cs",
+              "DocumentMoniker": "D:\\AGU\\2025-2026_hoc_ki_2\\LTQL\\NopDoANTheoBuoi\\Buoi3\\QLBP\\FORM\\BanPhim.cs",
+              "RelativeDocumentMoniker": "QLBP\\FORM\\BanPhim.cs",
+              "ToolTip": "D:\\AGU\\2025-2026_hoc_ki_2\\LTQL\\NopDoANTheoBuoi\\Buoi3\\QLBP\\FORM\\BanPhim.cs*",
+              "RelativeToolTip": "QLBP\\FORM\\BanPhim.cs*",
+              "ViewState": "AgIAAGgBAAAAAAAAAAAswHkBAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-25T13:09:48.598Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\AGU\\2025-2026_hoc_ki_2\\LTQL\\NopDoANTheoBuoi\\Buoi3\\QLBP\\Program.cs",
+              "RelativeDocumentMoniker": "QLBP\\Program.cs",
+              "ToolTip": "D:\\AGU\\2025-2026_hoc_ki_2\\LTQL\\NopDoANTheoBuoi\\Buoi3\\QLBP\\Program.cs",
+              "RelativeToolTip": "QLBP\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAcwBMAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-25T10:18:51.989Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BanPhim.cs [Design]",
+              "DocumentMoniker": "D:\\AGU\\2025-2026_hoc_ki_2\\LTQL\\NopDoANTheoBuoi\\Buoi3\\QLBP\\FORM\\BanPhim.cs",
+              "RelativeDocumentMoniker": "QLBP\\FORM\\BanPhim.cs",
+              "ToolTip": "D:\\AGU\\2025-2026_hoc_ki_2\\LTQL\\NopDoANTheoBuoi\\Buoi3\\QLBP\\FORM\\BanPhim.cs [Design]*",
+              "RelativeToolTip": "QLBP\\FORM\\BanPhim.cs [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-25T13:22:43.228Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
