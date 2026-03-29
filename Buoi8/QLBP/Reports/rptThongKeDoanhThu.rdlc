@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Report xmlns="http://schemas.microsoft.com/sqlserver/reporting/2016/01/reportdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+  <AutoRefresh>0</AutoRefresh>
+  <DataSources>
+    <DataSource Name="QLBPDataSet">
+      <ConnectionProperties>
+        <DataProvider>System.Data.DataSet</DataProvider>
+        <ConnectString>/* Local Connection */</ConnectString>
+      </ConnectionProperties>
+    </DataSource>
+  </DataSources>
+  <DataSets>
+    <DataSet Name="DanhSachHoaDon">
+      <Query>
+        <DataSourceName>QLBPDataSet</DataSourceName>
+        <CommandText>/* Local Query */</CommandText>
+      </Query>
+      <Fields>
+        <Field Name="ID"><DataField>ID</DataField><rd:TypeName>System.Int32</rd:TypeName></Field>
+        <Field Name="TenNhanVien"><DataField>TenNhanVien</DataField><rd:TypeName>System.String</rd:TypeName></Field>
+        <Field Name="TenKhachHang"><DataField>TenKhachHang</DataField><rd:TypeName>System.String</rd:TypeName></Field>
+        <Field Name="NgayLap"><DataField>NgayLap</DataField><rd:TypeName>System.DateTime</rd:TypeName></Field>
+        <Field Name="TongTienHoaDon"><DataField>TongTienHoaDon</DataField><rd:TypeName>System.Double</rd:TypeName></Field>
+      </Fields>
+    </DataSet>
+  </DataSets>
+  <ReportSections>
+    <ReportSection>
+      <Body>
+        <ReportItems>
+          <Rectangle Name="Dashboard">
+            <ReportItems>
+              <Textbox Name="Rev">
+                <Style><BackgroundColor>#27ae60</BackgroundColor><PaddingTop>5pt</PaddingTop></Style>
+                <Top>0.1in</Top><Left>0.1in</Left><Height>0.35in</Height><Width>2in</Width>
+                <Paragraphs>
+                  <Paragraph>
+                    <TextRuns><TextRun><Value>="DOANH THU: " &amp; Parameters!TongDoanhThu.Value</Value><Style><FontWeight>Bold</FontWeight><Color>White</Color></Style></TextRun></TextRuns>
+                    <Style><TextAlign>Center</TextAlign></Style>
+                  </Paragraph>
+                </Paragraphs>
+              </Textbox>
+              <Textbox Name="AOV">
+                <Style><BackgroundColor>#8e44ad</BackgroundColor><PaddingTop>5pt</PaddingTop></Style>
+                <Top>0.1in</Top><Left>2.2in</Left><Height>0.35in</Height><Width>2in</Width>
+                <Paragraphs>
+                  <Paragraph>
+                    <TextRuns><TextRun><Value>="AOV: " &amp; Parameters!AOV.Value</Value><Style><FontWeight>Bold</FontWeight><Color>White</Color></Style></TextRun></TextRuns>
+                    <Style><TextAlign>Center</TextAlign></Style>
+                  </Paragraph>
+                </Paragraphs>
+              </Textbox>
+              <Textbox Name="Top">
+                <Style><BackgroundColor>#f39c12</BackgroundColor><PaddingTop>5pt</PaddingTop></Style>
+                <Top>0.1in</Top><Left>4.3in</Left><Height>0.35in</Height><Width>2.1in</Width>
+                <Paragraphs>
+                  <Paragraph>
+                    <TextRuns><TextRun><Value>="TOP NV: " &amp; Parameters!TopNhanVien.Value</Value><Style><FontWeight>Bold</FontWeight><Color>White</Color></Style></TextRun></TextRuns>
+                    <Style><TextAlign>Center</TextAlign></Style>
+                  </Paragraph>
+                </Paragraphs>
+              </Textbox>
+            </ReportItems>
+            <Top>0.6in</Top><Left>0in</Left><Height>0.5in</Height><Width>6.5in</Width>
+          </Rectangle>
+          <Textbox Name="Title">
+            <Top>0.1in</Top><Left>0in</Left><Height>0.4in</Height><Width>6.5in</Width>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns><TextRun><Value>PHÂN TÍCH DOANH THU &amp; HIỆU SUẤT BÁN HÀNG</Value><Style><FontSize>16pt</FontSize><FontWeight>Bold</FontWeight><Color>#2c3e50</Color></Style></TextRun></TextRuns>
+                <Style><TextAlign>Center</TextAlign></Style>
+              </Paragraph>
+            </Paragraphs>
+          </Textbox>
+          <Textbox Name="MoTa">
+            <Top>1.15in</Top><Left>0in</Left><Height>0.25in</Height><Width>6.5in</Width>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns><TextRun><Value>=Parameters!MoTaKetQuaHienThi.Value</Value><Style><FontStyle>Italic</FontStyle></Style></TextRun></TextRuns>
+                <Style><TextAlign>Center</TextAlign></Style>
+              </Paragraph>
+            </Paragraphs>
+          </Textbox>
+          <Tablix Name="Tablix1">
+            <TablixBody>
+              <TablixColumns><TablixColumn><Width>0.6in</Width></TablixColumn><TablixColumn><Width>1.4in</Width></TablixColumn><TablixColumn><Width>1.5in</Width></TablixColumn><TablixColumn><Width>1.5in</Width></TablixColumn><TablixColumn><Width>1.5in</Width></TablixColumn></TablixColumns>
+              <TablixRows>
+                <TablixRow>
+                  <Height>0.3in</Height>
+                  <TablixCells>
+                    <TablixCell><CellContents><Textbox Name="H1"><Style><BackgroundColor>#2c3e50</BackgroundColor><PaddingTop>4pt</PaddingTop></Style><Paragraphs><Paragraph><TextRuns><TextRun><Value>ID</Value><Style><FontWeight>Bold</FontWeight><Color>White</Color></Style></TextRun></TextRuns></Paragraph></Paragraphs></Textbox></CellContents></TablixCell>
+                    <TablixCell><CellContents><Textbox Name="H2"><Style><BackgroundColor>#2c3e50</BackgroundColor><PaddingTop>4pt</PaddingTop></Style><Paragraphs><Paragraph><TextRuns><TextRun><Value>NGÀY LẬP</Value><Style><FontWeight>Bold</FontWeight><Color>White</Color></Style></TextRun></TextRuns></Paragraph></Paragraphs></Textbox></CellContents></TablixCell>
+                    <TablixCell><CellContents><Textbox Name="H3"><Style><BackgroundColor>#2c3e50</BackgroundColor><PaddingTop>4pt</PaddingTop></Style><Paragraphs><Paragraph><TextRuns><TextRun><Value>KHÁCH HÀNG</Value><Style><FontWeight>Bold</FontWeight><Color>White</Color></Style></TextRun></TextRuns></Paragraph></Paragraphs></Textbox></CellContents></TablixCell>
+                    <TablixCell><CellContents><Textbox Name="H4"><Style><BackgroundColor>#2c3e50</BackgroundColor><PaddingTop>4pt</PaddingTop></Style><Paragraphs><Paragraph><TextRuns><TextRun><Value>NHÂN VIÊN</Value><Style><FontWeight>Bold</FontWeight><Color>White</Color></Style></TextRun></TextRuns></Paragraph></Paragraphs></Textbox></CellContents></TablixCell>
+                    <TablixCell><CellContents><Textbox Name="H5"><Style><BackgroundColor>#2c3e50</BackgroundColor><PaddingTop>4pt</PaddingTop></Style><Paragraphs><Paragraph><TextRuns><TextRun><Value>TỔNG TIỀN</Value><Style><FontWeight>Bold</FontWeight><Color>White</Color></Style></TextRun></TextRuns></Paragraph></Paragraphs></Textbox></CellContents></TablixCell>
+                  </TablixCells>
+                </TablixRow>
+                <TablixRow>
+                  <Height>0.25in</Height>
+                  <TablixCells>
+                    <TablixCell><CellContents><Textbox Name="C1"><Style><Border><Color>LightGrey</Color><Style>Solid</Style></Border></Style><Paragraphs><Paragraph><TextRuns><TextRun><Value>=Fields!ID.Value</Value></TextRun></TextRuns></Paragraph></Paragraphs></Textbox></CellContents></TablixCell>
+                    <TablixCell><CellContents><Textbox Name="C2"><Style><Border><Color>LightGrey</Color><Style>Solid</Style></Border></Style><Paragraphs><Paragraph><TextRuns><TextRun><Value>=Fields!NgayLap.Value</Value><Style><Format>dd/MM/yyyy</Format></Style></TextRun></TextRuns></Paragraph></Paragraphs></Textbox></CellContents></TablixCell>
+                    <TablixCell><CellContents><Textbox Name="C3"><Style><Border><Color>LightGrey</Color><Style>Solid</Style></Border></Style><Paragraphs><Paragraph><TextRuns><TextRun><Value>=Fields!TenKhachHang.Value</Value></TextRun></TextRuns></Paragraph></Paragraphs></Textbox></CellContents></TablixCell>
+                    <TablixCell><CellContents><Textbox Name="C4"><Style><Border><Color>LightGrey</Color><Style>Solid</Style></Border></Style><Paragraphs><Paragraph><TextRuns><TextRun><Value>=Fields!TenNhanVien.Value</Value></TextRun></TextRuns></Paragraph></Paragraphs></Textbox></CellContents></TablixCell>
+                    <TablixCell><CellContents><Textbox Name="C5"><Style><Border><Color>LightGrey</Color><Style>Solid</Style></Border></Style><Paragraphs><Paragraph><TextRuns><TextRun><Value>=Fields!TongTienHoaDon.Value</Value><Style><Format>N0</Format><FontWeight>Bold</FontWeight></Style></TextRun></TextRuns></Paragraph></Paragraphs></Textbox></CellContents></TablixCell>
+                  </TablixCells>
+                </TablixRow>
+              </TablixRows>
+            </TablixBody>
+            <TablixColumnHierarchy><TablixMembers><TablixMember/><TablixMember/><TablixMember/><TablixMember/><TablixMember/></TablixMembers></TablixColumnHierarchy>
+            <TablixRowHierarchy><TablixMembers><TablixMember><KeepWithGroup>After</KeepWithGroup></TablixMember><TablixMember><Group Name="Details"/></TablixMember></TablixMembers></TablixRowHierarchy>
+            <DataSetName>DanhSachHoaDon</DataSetName>
+            <Top>1.5in</Top><Left>0in</Left><Height>0.55in</Height><Width>6.5in</Width>
+          </Tablix>
+        </ReportItems>
+        <Height>3in</Height>
+        <Style />
+      </Body>
+      <Width>6.5in</Width>
+      <Page>
+        <PageHeight>11.69in</PageHeight>
+        <PageWidth>8.27in</PageWidth>
+        <LeftMargin>0.5in</LeftMargin>
+        <RightMargin>0.5in</RightMargin>
+        <TopMargin>0.5in</TopMargin>
+        <BottomMargin>0.5in</BottomMargin>
+        <Style />
+      </Page>
+    </ReportSection>
+  </ReportSections>
+  <ReportParameters>
+    <ReportParameter Name="MoTaKetQuaHienThi"><DataType>String</DataType><AllowBlank>true</AllowBlank><Prompt>MoTa</Prompt></ReportParameter>
+    <ReportParameter Name="TongDoanhThu"><DataType>String</DataType><AllowBlank>true</AllowBlank><Prompt>DoanhThu</Prompt></ReportParameter>
+    <ReportParameter Name="TongDonHang"><DataType>String</DataType><AllowBlank>true</AllowBlank><Prompt>DonHang</Prompt></ReportParameter>
+    <ReportParameter Name="AOV"><DataType>String</DataType><AllowBlank>true</AllowBlank><Prompt>AOV</Prompt></ReportParameter>
+    <ReportParameter Name="TopNhanVien"><DataType>String</DataType><AllowBlank>true</AllowBlank><Prompt>TopNV</Prompt></ReportParameter>
+  </ReportParameters>
+</Report>
